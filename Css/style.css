@@ -84,3 +84,90 @@ li.nav-item-2:hover ul.dropdown-menu-2{
 /* Dropdown Menu 2 */
 
 /* Header Section */
+
+
+/* Hero section */
+.hero-section{
+    background-image: url(/assets/img/hero-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background{
+    background-color: #1b1661;
+    opacity: 0.95;
+    padding: 100px 0;
+}
+h1.text-light.hero-text {
+    font-size: 48px;
+}
+
+.sty{
+    text-decoration-line: underline;
+    font-size: 52px;
+    color: aquamarine;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a.text-light.text-decoration-none.h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+/* Hero section */
+
+
+/* About section */
+.me-5 {
+    margin-right: 240px!important;
+    padding-left: 12px;
+    background-color: #F3FCF9;
+}
+span {
+    margin-left: 10px;
+}
+
+
+.icon-box {
+    background: #ffff;
+    border: 1px solid #0000000f;
+    box-shadow: 2px 2px 2px 2px #add8e624;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-bottom: 20px;
+}
+
+.icon-box .icon i {
+    color: #1acc8e;
+    background: #f3fcf9;
+    width: 80px;
+    height: 80px;
+    line-height: 14px;
+    padding: 34px;
+    border-radius: 50px;
+    transition: .3s;
+}
+.icon-box .icon i:hover{
+    color: #f3fcf9;
+    background: #1acc8e;
+}
+
+.icon-box.margin-4 {
+    margin-top: -30px;
+}
+/* About section end */
