@@ -136,7 +136,7 @@ a.text-light.text-decoration-none.h6 {
     padding-left: 12px;
     background-color: #F3FCF9;
 }
-span {
+i.fa-solid.fa-arrow-right-long {
     margin-left: 10px;
 }
 
@@ -147,6 +147,7 @@ span {
     box-shadow: 2px 2px 2px 2px #add8e624;
     padding: 30px;
     margin-bottom: 20px;
+    transition: .3s;
 }
 .icon{
     margin-bottom: 20px;
@@ -162,12 +163,105 @@ span {
     border-radius: 50px;
     transition: .3s;
 }
-.icon-box .icon i:hover{
-    color: #f3fcf9;
-    background: #1acc8e;
-}
 
 .icon-box.margin-4 {
     margin-top: -30px;
 }
+
+.icon-box:hover .icon i{
+    color: #f3fcf9;
+    background: #1acc8e;
+} 
+
+i.fa-solid.fa-arrow-right-long {
+    padding-right: 10px;
+}
+
+.btn.btn-success.btn-lg.rounded-2.py-3.px-4:hover i.fa-solid.fa-arrow-right-long {
+    padding-right: 10px;
+}
+
 /* About section end */
+
+/* Features section */
+
+.features-item.d-flex.justify-content-center.align-items-center {
+    border: 1px solid #e8edf1;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.features-item.d-flex.justify-content-center.align-items-center:hover {
+    border: 1px solid #1acc8e;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.features-item.d-flex.justify-content-center.align-items-center:hover h3.my-0.h6 {
+    border: 1px solid #1acc8e;
+}
+
+.icon1 {
+    color: red;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon2 {
+    color: rgb(109, 209, 151);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon3 {
+    color: rgb(52, 22, 134);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon4 {
+    color: rgba(66, 112, 28, 0.562);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon5 {
+    color: rgb(47, 80, 172);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon6 {
+    color: rgb(15, 100, 156);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon7 {
+    color: rgb(10, 51, 88);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon8 {
+    color: rgb(181, 199, 19);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon9 {
+    color: rgb(0, 89, 255);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon10 {
+    color: rgb(255, 208, 0);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon11 {
+    color: rgb(0, 51, 146);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon12 {
+    color: rgba(0, 255, 115, 0.856);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+/* Features section end */
